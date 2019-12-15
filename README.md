@@ -48,7 +48,20 @@ static void Main()
 }
 ```
 
-Build this WinForm program, and the executable file will be generated into the `C:\src\tangram_runtime_chromium_78_X.Y.Z\` directory. Copy the following text as a file into this directory, the file name is `YourExecutableFileName.eclipse`. Note that the `cnnid` in the text needs to correspond to your namespace. Then run the program.
+Build this WinForm program, and the executable file will be generated into the `C:\src\tangram_runtime_chromium_78_X.Y.Z\` directory. Copy the following text as a file into this directory, the file name is `YourExecutableFileName.eclipse`. Note that the `cnnid` in the text needs to correspond to your namespace. 
+
+```xml
+<obj type="workbench" objid="MyWinFormEclipse.Form1,host" workbenchkey="foo" showstartup="true" caption="MyWinFormEclipse">
+  <window>
+    <node id='splitter' name='splitter' rows='1' cols='2' height='250,' width='350,100,' borderwidth='0' splitterwidth='2' middlecolor='RGB(180,180,180)'>
+      <node id="clrctrl" cnnid="MyWinFormEclipse.Form1,host"></node>
+      <node id="hostview"></node>
+    </node>
+  </window>
+</obj>
+```
+
+Then run the program.
 
 ![1576400110625](assets/1576400110625.png)
 
