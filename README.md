@@ -15,7 +15,7 @@ To build your own Eclipse using Eclipse for .NET, you first need a computer with
 
 - .NET desktop development
 
-Also make sure you have the latest version of the Windows SDK installed.
+Also make sure you have the latest version of the Windows SDK and Java runtime installed.
 
 Download [tangram_runtime_chromium_78_X.Y.Z.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases) and extract it to the `C:\src` directory.
 

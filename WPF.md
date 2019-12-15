@@ -4,7 +4,7 @@ Eclipse for WPF is a desktop development framework based on the Eclipse open-sou
 ## How to work?
 Eclipse for WPF enables developers to use WPF in Eclipse. You can download our [preview package](https://github.com/TangramDev/tangram_runtime_binaries/releases) for experience.
 
-Make sure your computer is Windows 7, Windows 8.1 or Windows 10, and has .NET Framework 4 or later. The Java runtime must be installed. Extract the downloaded preview package to any location and run the demo MyWpfEclipseN. If everything is OK, you will see the following pictures.
+Make sure your computer is Windows 7, Windows 8.1 or Windows 10, and has .NET Framework 4 or later. The Java runtime must be installed. Extract the downloaded [preview package](https://github.com/TangramDev/tangram_runtime_binaries/releases) to any location and run the demo MyWpfEclipseN. If everything is OK, you will see the following pictures.
 
 ![1576400995078](assets/1576400995078.png)
 
@@ -15,7 +15,7 @@ To build your own Eclipse using Eclipse for WPF, you first need a computer with 
 
 - .NET desktop development
 
-Also make sure you have the latest version of the Windows SDK installed.
+Also make sure you have the latest version of the Windows SDK and Java runtime installed.
 
 Download [tangram_runtime_chromium_78_X.Y.Z.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases) and extract it to the `C:\src` directory.
 
