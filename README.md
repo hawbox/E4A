@@ -65,9 +65,3 @@ Build and run the WinForm program again.
 ![1576400350410](assets/1576400350410.png)
 
 New changes have appeared in Eclipse.
-
-## Troubleshoots
-
-![1574835244140](assets/1574835244140.png)
-
-If your browser looks like the picture above, Download this [app.manifest](https://raw.githubusercontent.com/TangramDev/CSharp-Browser/master/app.manifest) file to your project and rebuild.
