@@ -17,11 +17,11 @@ To build your own Eclipse using Eclipse for WPF, you first need a computer with 
 
 Also make sure you have the latest version of the Windows SDK and Java runtime installed.
 
-Download [tangram_runtime_chromium_78_X.Y.Z.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases) and extract it to the `C:\src` directory.
+Download [tangram_runtime_chromium_79_eclipse_201909_X.Y.Z.zip](https://github.com/TangramDev/tangram_runtime_binaries/releases) and extract it to the `C:\src` directory.
 
 ![1575881041581](assets/1575881041581.png)
 
-Create a WPF project (.NET Framework) using Visual Studio. And reference to `tangram_clr_rt.dll`(Located at `C:\src\tangram_runtime_chromium_78_X.Y.Z\`).
+Create a WPF project (.NET Framework) using Visual Studio. And reference to `tangram_clr_rt.dll`(Located at `C:\src\tangram_runtime_chromium_79_eclipse_201909_X.Y.Z\`).
 
 ![1576399228135](assets/1576399228135.png)
 
@@ -29,7 +29,7 @@ Change platform target to x64.
 
 ![1576399260280](assets/1576399260280.png)
 
-Update the Output path to `C:\src\tangram_runtime_chromium_78_X.Y.Z\`.
+Update the Output path to `C:\src\tangram_runtime_chromium_79_eclipse_201909_X.Y.Z\`.
 
 ![1576399301700](assets/1576399301700.png)
 
@@ -84,7 +84,7 @@ Paragraphs that need to be uncommented.
   </dependency>
 ```
 
-Build this WPF program, and the executable file will be generated into the `C:\src\tangram_runtime_chromium_78_X.Y.Z\` directory. Copy the following text as a file into this directory, the file name is `YourExecutableFileName.eclipse`. Note that the `cnnid` in the text needs to correspond to your namespace. 
+Build this WPF program, and the executable file will be generated into the `C:\src\tangram_runtime_chromium_79_eclipse_201909_X.Y.Z\` directory. Copy the following text as a file into this directory, the file name is `YourExecutableFileName.eclipse`. Note that the `cnnid` in the text needs to correspond to your namespace. 
 
 ```xml
 <obj type="workbench" objid="MyWpfEclipse.UserControl1,host" workbenchkey="foo" showstartup="true" caption="MyWpfEclipse">
